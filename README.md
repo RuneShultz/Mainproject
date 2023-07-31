@@ -1,6 +1,5 @@
-# Mainproject
-## StarDataCapture: A Novel Method for Analyzing
-## Images in Space
+# StarDataCapture
+## A Novel Method for Analyzing Images in Space
 
 ## Background
 StarDataCapture is a resource that collects and organizes data from any .fits image of space. It can identify stars
