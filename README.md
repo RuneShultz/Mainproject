@@ -52,5 +52,8 @@ Then go to jupyter notebook, click upload, and select StarDataCapture.ipynb
 8. for minimum_between_stars put 20
 9. for star_background_ratio put 10
 
-
+# To construct slidepresentation
+1. Download slidepresentation file
+2. in terminal run 'cd slidepresentation'
+3. then run 'pdflatex slidepresentation'
 
