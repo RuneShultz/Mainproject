@@ -4,7 +4,7 @@
 ## Background
 StarDataCapture is a resource that collects and organizes data from any .fits image of space. It can identify stars
 and return the coordinates, star brightness, background brightness, and brightness ratio for every star.
-There are currently no fullproof star identification programs but during this project I coded and tested multiple
+There are currently no foolproof star identification programs but during this project I coded and tested multiple
 formats. The first one identified stars purely based on pixel brightness. This caused multiple issues because
 stars would be counted multiple times and would often confuse other objects as stars. Then began my work into the final code. I began by using the difference in brightness between the star and background, but I soon found this was not usefull when apply the code to other images. My final design identifies stars based on the ratio of the contrast between the star and the background, and by shape. I used the contrast to identify by creating a aperture that would
 loop through the image in squares. This aperture would find the average brightness of the pixels in the star and of the background and compute the ratio between them. To improve this the square was turned into a circle, now the count over the star would be more accuratly shaped and include less background within the star.
