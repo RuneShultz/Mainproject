@@ -24,5 +24,5 @@ there are instructions throughout the code to run the code through your .fits im
 ## Results
 After running the code through your image, you should be left with a list with the coordinates, the average
 brightness of the star located, the average brightness of the background around it, and the ratio between them for
-each star. There will also be a plot with all of the points on top of your original image.
+each star. There will also be a plot with all of the points on top of your original image.(Since this program has to run through every pixel in the image, it takes a few minutes to produce the data)
 
