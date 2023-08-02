@@ -38,8 +38,8 @@ To run this code, you must first install jupite notebook with:
 and to run:
 ## jupyter notebook
 to run StarDataCapture:
-## Click the three dots on the StarDataCapture code and download
-## Then go to jupyter notebook, click upload, and select StarDataCapture.ipynb
+Click the three dots on the StarDataCapture code and download
+Then go to jupyter notebook, click upload, and select StarDataCapture.ipynb
 
 # Testing
 1. Download this file, https://www.swift.ac.uk/archive/reproc/00016150001/uvot/image/sw00016150001ubb_sk.img.gz 
