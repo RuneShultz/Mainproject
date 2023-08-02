@@ -9,6 +9,7 @@ formats. The first one identified stars purely based on pixel brightness. This c
 stars would be counted multiple times and would often confuse other objects as stars. My final design identifies stars based on the ratio of the contrast between
 the star and the background, and by shape. We began coding with the contrast by creating a aperture that would
 loop through the image in squares. This aperture would find the average brightness of the pixels in the star and of the background and compute the ratio between them. To improve this the square was turned into a circle, now the count over the star would be more accuratly shaped and include less background within the star.
+
 Even large code that people work on for years can have limitations. This program, that was done in a month does too.
 Given more time I could’ve found ways to work out the little tweaks. This program isn’t great at identifying dim
 stars, or stars that are close together, and sometimes it gets confused when there are other subjects in the image.
