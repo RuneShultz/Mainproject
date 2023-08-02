@@ -33,12 +33,12 @@ brightness of the star located, the average brightness of the background around 
 each star. There will also be a plot with all of the points on top of your original image.(Since this program has to run through every pixel in the image, it takes a few minutes to produce the data)
 
 # Running
-To run this code, you must first install jupite notebook with:
+To run this code, you must first install jupyter notebook with:
 !pip install notebook
 and to run:
 jupyter notebook
 to run StarDataCapture:
-Click the three dots on the StarDataCapture code and download
+Click the download button in StarDataCapture.ipynb
 Then go to jupyter notebook, click upload, and select StarDataCapture.ipynb
 
 # Testing
