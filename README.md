@@ -34,9 +34,9 @@ each star. There will also be a plot with all of the points on top of your origi
 
 # Running
 To run this code, you must first install jupite notebook with:
-## !pip install notebook
+!pip install notebook
 and to run:
-## jupyter notebook
+jupyter notebook
 to run StarDataCapture:
 Click the three dots on the StarDataCapture code and download
 Then go to jupyter notebook, click upload, and select StarDataCapture.ipynb
@@ -44,7 +44,7 @@ Then go to jupyter notebook, click upload, and select StarDataCapture.ipynb
 # Testing
 1. Download this file, https://www.swift.ac.uk/archive/reproc/00016150001/uvot/image/sw00016150001ubb_sk.img.gz 
 2. In your files, unzip the image by extracting it into your Home directory
-3. Paste it in the 'fits_image_url' place
+3. paste the link inside the single-quotes by fits_img_url
 4. For the NAXIS use 1
 5. in the yaxis put 826
 6. in the xaxis put 927
