@@ -6,7 +6,7 @@ StarDataCapture is a resource that collects and organizes data from any .fits im
 and return the coordinates, star brightness, background brightness, and brightness ratio for every star.
 There are currently no foolproof star identification programs but during this project I coded and tested multiple
 formats. The first one identified stars purely based on pixel brightness. This caused multiple issues because
-stars would be counted multiple times and would often confuse other objects as stars. Then began my work into the final code. I began by using the difference in brightness between the star and background, but I soon found this was not usefull when apply the code to other images. My final design identifies stars based on the ratio of the contrast between the star and the background, and by shape. I used the contrast to identify by creating a aperture that would
+stars would be counted multiple times and would often confuse other objects as stars. Then began my work into the final code. I began by using the difference in brightness between the star and background, but I soon found this was not useful when apply the code to other images. My final design identifies stars based on the ratio of the contrast between the star and the background, and by shape. I used the contrast to identify by creating a aperture that would
 loop through the image in squares. This aperture would find the average brightness of the pixels in the star and of the background and compute the ratio between them. To improve this the square was turned into a circle, now the count over the star would be more accuratly shaped and include less background within the star.
 
 Even large code that people work on for years can have limitations. This program, that was done in a month does too.
@@ -16,7 +16,7 @@ Though there are slight ways to get better results, it will never be perfect. Th
 In the main image I used to create this code, there were 3 stars that I was never able to get the computer to 
 properly identify. Those stars were larger than others so the background brightness included parts of the stars and were not calculated properly. In the end, we were able to recieve sufficient results. There were no visible false positives and the three stars were the only false negatives.
 
-In the future I would hope to fix some of these complications. I think if I could specify the brightess ratio better(possibly with a range) and the shape of the stars better it would improve many features. With this, it would rarely mis-calculate stars.
+In the future I would hope to fix some of these complications. I think if I could specify the brightness ratio better(possibly with a range) and the shape of the stars better it would improve many features. With this, it would rarely mis-calculate stars.
 
 ## Instructions
 To use the StarDataCapture code, you will want to copy and paste the code into a code editor. Once you have it,
